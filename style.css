@@ -1,0 +1,110 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+}
+
+section {
+    height: 500px ;
+    padding-bottom: 150px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.name-highlight{
+    color: #FFB301;
+    font-weight: bold;
+}
+.simple{
+    font-weight: 200;
+}
+
+a:link{
+    color: blueviolet;
+    text-decoration: none;
+}
+a:visited{
+    color: darkviolet;
+    text-decoration: none;
+}
+a:hover{
+    color: goldenrod;
+    text-decoration: none;
+}
+a:active{
+    color: bisque;
+}
+.customer{
+    color: crimson;
+    font-weight: bold;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("tarek/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #FFB300, #ECFF00);
+    padding: 10px 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+a.link-button:hover{
+    color: black;
+    font-size: 30px;
+}
+a.link-button:active{
+    color: black;
+    font-size: 30px;
+}
+a.link-button:visited{
+    color: black;
+    font-size: 30px;
+}
+.dream-area{
+    background-image: url("tarek/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 30px lightgray;
+    height: 50%;
+}
+.experience-area{
+    background-image: url("tarek/exp-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: left;
+}
+#small-step{
+    border-left: 7px solid ;
+    border-image: linear-gradient(#91A6FF, #91FFDE);
+    border-image-slice: 1;
+    
+}
+#massive-step{
+    border-left: 7px solid ;
+    border-image: linear-gradient(#91FFDE, #91A6FF);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
